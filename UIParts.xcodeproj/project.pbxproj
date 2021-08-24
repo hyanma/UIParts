@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4214122126D44D6A00ADFF87 /* GridTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4214122026D44D6A00ADFF87 /* GridTableView.swift */; };
+		4214122326D47A0A00ADFF87 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4214122226D47A0A00ADFF87 /* ImageView.swift */; };
 		42D116E826D42B7B0036D945 /* UIPartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D116E726D42B7B0036D945 /* UIPartsApp.swift */; };
 		42D116EA26D42B7B0036D945 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D116E926D42B7B0036D945 /* ContentView.swift */; };
 		42D116EC26D42B840036D945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D116EB26D42B840036D945 /* Assets.xcassets */; };
 		42D116EF26D42B840036D945 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D116EE26D42B840036D945 /* Preview Assets.xcassets */; };
 		42D116FA26D42B850036D945 /* UIPartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D116F926D42B850036D945 /* UIPartsTests.swift */; };
 		42D1170526D42B850036D945 /* UIPartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1170426D42B850036D945 /* UIPartsUITests.swift */; };
+		42D1171326D42C070036D945 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1171226D42C070036D945 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4214122026D44D6A00ADFF87 /* GridTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTableView.swift; sourceTree = "<group>"; };
+		4214122226D47A0A00ADFF87 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		42D116E426D42B7B0036D945 /* UIParts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIParts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D116E726D42B7B0036D945 /* UIPartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPartsApp.swift; sourceTree = "<group>"; };
 		42D116E926D42B7B0036D945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 		42D1170026D42B850036D945 /* UIPartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D1170426D42B850036D945 /* UIPartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPartsUITests.swift; sourceTree = "<group>"; };
 		42D1170626D42B850036D945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D1171226D42C070036D945 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				42D116E726D42B7B0036D945 /* UIPartsApp.swift */,
 				42D116E926D42B7B0036D945 /* ContentView.swift */,
+				42D1171226D42C070036D945 /* TextView.swift */,
+				4214122026D44D6A00ADFF87 /* GridTableView.swift */,
+				4214122226D47A0A00ADFF87 /* ImageView.swift */,
 				42D116EB26D42B840036D945 /* Assets.xcassets */,
 				42D116F026D42B840036D945 /* Info.plist */,
 				42D116ED26D42B840036D945 /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4214122326D47A0A00ADFF87 /* ImageView.swift in Sources */,
+				42D1171326D42C070036D945 /* TextView.swift in Sources */,
 				42D116EA26D42B7B0036D945 /* ContentView.swift in Sources */,
 				42D116E826D42B7B0036D945 /* UIPartsApp.swift in Sources */,
+				4214122126D44D6A00ADFF87 /* GridTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

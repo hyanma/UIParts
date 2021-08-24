@@ -11,16 +11,18 @@ struct GridTableView: View {
     @Binding var cells: [[String]]
     
     var body: some View {
-        VStack {
+        VStack(spacing: 1) {
             ForEach(cells, id: \.self) { row in
-            HStack {
-                ForEach(row, id: \.self) { column in
-                    Text("\(column)")
-                        .frame(width: 80)
+                HStack(spacing: 1) {
+                    ForEach(row, id: \.self) { column in
+                        Text("\(column)")
+                            .frame(width: 80)
+                            .background(Color.white)
+                    }
                 }
-            }.frame(maxWidth: .infinity)
             }
-        }
+        }.background(Color.black)
+        .border(Color.black)
     }
 }
 
